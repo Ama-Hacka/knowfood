@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q-0001",
+    "prompt": "Which has less sugar per serving?",
+    "difficulty": 1,
+    "isTwist": false,
+    "a": { "name": "Whole orange", "emoji": "🍊", "details": ["1 medium orange"] },
+    "b": { "name": "Orange juice", "emoji": "🧃", "details": ["1 large glass, no fiber"] },
+    "correct": "a",
+    "explanation": "The orange keeps its fiber and takes longer to eat. The juice is basically several oranges you didn't have to chew.",
+    "sources": [{ "label": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/" }],
+    "tags": ["sugar", "fiber"]
+  },
+  {
+    "id": "q-0002",
+    "prompt": "Which is the safer meal tonight?",
+    "difficulty": 2,
+    "isTwist": true,
+    "a": { "name": "Garden salad", "emoji": "🥗", "details": ["From a bag in a recall notice", "E. coli outbreak linked to the lot"] },
+    "b": { "name": "Homemade burger", "emoji": "🍔", "details": ["Cooked to 160°F (71°C)"] },
+    "correct": "b",
+    "explanation": "Salad's reputation took a hit from its own lettuce. Cooked to 160°F, the burger is the safer choice here.",
+    "sources": [{ "label": "USDA safe minimum temperatures", "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-cooking-temperature" }],
+    "tags": ["food-safety"]
+  },
+  {
+    "id": "q-0003",
+    "prompt": "Which is the safer leftover?",
+    "difficulty": 2,
+    "isTwist": true,
+    "a": { "name": "Rice", "emoji": "🍚", "details": ["Left on the counter overnight"] },
+    "b": { "name": "Instant noodles", "emoji": "🍜", "details": ["Just cooked"] },
+    "correct": "b",
+    "explanation": "Rice left out can grow Bacillus cereus, and reheating doesn't always destroy its toxin. Plain old noodles win tonight.",
+    "sources": [{ "label": "CDC / FDA food safety on rice", "url": "https://www.fda.gov/food" }],
+    "tags": ["food-safety"]
+  },
+  {
+    "id": "q-0004",
+    "prompt": "Which has fewer calories?",
+    "difficulty": 3,
+    "isTwist": true,
+    "a": { "name": "Restaurant Caesar salad", "emoji": "🥗", "details": ["Chicken, bacon, croutons, creamy dressing", "Large portion"] },
+    "b": { "name": "Plain cheeseburger", "emoji": "🍔", "details": ["Single patty, no extras"] },
+    "correct": "b",
+    "explanation": "A 'salad' loaded with dressing, bacon and croutons can out-calorie a basic burger. The vegetable was just the decoy.",
+    "sources": [{ "label": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/" }],
+    "tags": ["calories", "portion-size"]
+  },
+  {
+    "id": "q-0005",
+    "prompt": "Which has less added sugar?",
+    "difficulty": 1,
+    "isTwist": false,
+    "a": { "name": "Banana", "emoji": "🍌", "details": ["Medium"] },
+    "b": { "name": "'Healthy' granola bar", "emoji": "🍫", "details": ["Chocolate chip, honey-sweetened"] },
+    "correct": "a",
+    "explanation": "The banana has zero added sugar. The granola bar has a wellness-sounding name and a very sweet personality.",
+    "sources": [{ "label": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/" }],
+    "tags": ["sugar"]
+  }
+]
